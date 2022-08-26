@@ -5,15 +5,21 @@
 // Если N = 3 -> 0 1 1
 // Если N = 7 -> 0 1 1 2 3 5 8
 Console.Clear();
-int countFibonachi = 10;
+Console.Write("Введите количество чисел Фибоначчи: ");
+int countFibonachi = Convert.ToInt32(Console.ReadLine());
+if (countFibonachi < 2)
+{
+    Console.WriteLine("Введено неверное количество чисел");
+    return; //Завершает прогрмму
+}
 int firstElement = 0;
 int secondElement = 1;
-Console.WriteLine(firstElement);    // i = 1
-Console.WriteLine(secondElement);   // i = 2
+Console.Write($"Числа Фибоныччи: {firstElement} ");    // i = 1
+Console.Write($"{secondElement} ");   // i = 2
 for (int i = 3; i <= countFibonachi ; i++)
 {
     int nextElement = firstElement + secondElement;
-    Console.WriteLine(nextElement);
+    Console.Write($"{nextElement} ");
     firstElement = secondElement;
     secondElement = nextElement;
 } 
