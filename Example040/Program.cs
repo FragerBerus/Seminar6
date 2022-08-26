@@ -9,9 +9,9 @@ for (int i = 0; i < 3; i++)
 {
     Triangle[i] = float.Parse(Console.ReadLine());
 }
-    if (Triangle[0] < (Triangle[1] + Triangle[2]) &&
-        Triangle[1] < (Triangle[0] + Triangle[2]) &&
-        Triangle[2] < (Triangle[0] + Triangle[1]))
+if (Triangle[0] < (Triangle[1] + Triangle[2]) &&
+    Triangle[1] < (Triangle[0] + Triangle[2]) &&
+    Triangle[2] < (Triangle[0] + Triangle[1]))
 {
     Console.WriteLine($"Треугольник со сторонами {Triangle[0]}, {Triangle[1]}, {Triangle[2]} может существовать.");
 }
