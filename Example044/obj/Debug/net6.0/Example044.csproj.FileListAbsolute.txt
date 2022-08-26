@@ -1,0 +1,15 @@
+F:\Документы\Обучение\Обучение IT\5. Знакомство с языками программирования\5.11. Seminar 6\Example044\bin\Debug\net6.0\Example044.exe
+F:\Документы\Обучение\Обучение IT\5. Знакомство с языками программирования\5.11. Seminar 6\Example044\bin\Debug\net6.0\Example044.deps.json
+F:\Документы\Обучение\Обучение IT\5. Знакомство с языками программирования\5.11. Seminar 6\Example044\bin\Debug\net6.0\Example044.runtimeconfig.json
+F:\Документы\Обучение\Обучение IT\5. Знакомство с языками программирования\5.11. Seminar 6\Example044\bin\Debug\net6.0\Example044.dll
+F:\Документы\Обучение\Обучение IT\5. Знакомство с языками программирования\5.11. Seminar 6\Example044\bin\Debug\net6.0\Example044.pdb
+F:\Документы\Обучение\Обучение IT\5. Знакомство с языками программирования\5.11. Seminar 6\Example044\obj\Debug\net6.0\Example044.csproj.AssemblyReference.cache
+F:\Документы\Обучение\Обучение IT\5. Знакомство с языками программирования\5.11. Seminar 6\Example044\obj\Debug\net6.0\Example044.GeneratedMSBuildEditorConfig.editorconfig
+F:\Документы\Обучение\Обучение IT\5. Знакомство с языками программирования\5.11. Seminar 6\Example044\obj\Debug\net6.0\Example044.AssemblyInfoInputs.cache
+F:\Документы\Обучение\Обучение IT\5. Знакомство с языками программирования\5.11. Seminar 6\Example044\obj\Debug\net6.0\Example044.AssemblyInfo.cs
+F:\Документы\Обучение\Обучение IT\5. Знакомство с языками программирования\5.11. Seminar 6\Example044\obj\Debug\net6.0\Example044.csproj.CoreCompileInputs.cache
+F:\Документы\Обучение\Обучение IT\5. Знакомство с языками программирования\5.11. Seminar 6\Example044\obj\Debug\net6.0\Example044.dll
+F:\Документы\Обучение\Обучение IT\5. Знакомство с языками программирования\5.11. Seminar 6\Example044\obj\Debug\net6.0\refint\Example044.dll
+F:\Документы\Обучение\Обучение IT\5. Знакомство с языками программирования\5.11. Seminar 6\Example044\obj\Debug\net6.0\Example044.pdb
+F:\Документы\Обучение\Обучение IT\5. Знакомство с языками программирования\5.11. Seminar 6\Example044\obj\Debug\net6.0\Example044.genruntimeconfig.cache
+F:\Документы\Обучение\Обучение IT\5. Знакомство с языками программирования\5.11. Seminar 6\Example044\obj\Debug\net6.0\ref\Example044.dll
