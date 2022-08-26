@@ -10,8 +10,8 @@ int size = Convert.ToInt32(Console.ReadLine());
 // чтобы не вычислять каждый раз array.Length
 int[] Array = new int[size];
 for (int i = 0; i < size; i++)  // Вместо size можно указать
-                                // array.Length/ Это одно и тоже
-{
+                                // array.Length Это одно и тоже,
+{                               // но меленнее.
     Array[i] = new Random().Next(11); // Выборка от 0 до 10 [0, 10]
 }
 Console.WriteLine($"Array: [{String.Join("; ", Array)}]");
