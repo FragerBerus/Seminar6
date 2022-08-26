@@ -31,44 +31,44 @@ Console.WriteLine($"resultArray: [{String.Join("; ", resultArray)}]");
 int[] array = GetArray(10, 0, 10);
 Console.WriteLine($"Исходный случайный массив: [{String.Join("; ", array)}]");
 
-int[] reversArray=CopyArray(array);
+int[] reversArray = CopyArray(array);
 Console.WriteLine($"Реверсивный массив методом копирования: [{String.Join("; ", reversArray)}]");
 
 ReverseArray(array);
 Console.WriteLine($"Реверсивный массив методом замены: [{String.Join("; ", array)}]");
 
-int[] GetArray(int size, int minValue, int maxValue) 
+int[] GetArray(int size, int minValue, int maxValue)
 // Метод заполнения массива, где size -длина массива, minValue -
 // минимальное число, maxValue - максимальное число
 {
-int[] res = new int[size];
+    int[] res = new int[size];
 
-for (int i = 0; i < size; i++)
-{
-    res[i] = new Random().Next(minValue, maxValue + 1); // [0;11) => [0;10]
-}
-return res;
+    for (int i = 0; i < size; i++)
+    {
+        res[i] = new Random().Next(minValue, maxValue + 1); // [0;11) => [0;10]
+    }
+    return res;
 }
 
 void ReverseArray(int[] inArray)    // Метод переворота массива
 // путем замены в нем элементов
 {
-for (int i = 0; i < inArray.Length / 2; i++)
-{
-int temp = inArray[i];
-inArray[i] = inArray[inArray.Length - i - 1];
-inArray[inArray.Length - i - 1] = temp;
-}
+    for (int i = 0; i < inArray.Length / 2; i++)
+    {
+        int temp = inArray[i];
+        inArray[i] = inArray[inArray.Length - i - 1];
+        inArray[inArray.Length - i - 1] = temp;
+    }
 }
 
 int[] CopyArray(int[] inArray) // Метод копирования массива 
 // в реверсивном виде (обратный массив)
 {
-int[] result = new int[inArray.Length];
-for (int i = 0; i < inArray.Length; i++)
-{
-result[i] = inArray[inArray.Length - 1 - i];
+    int[] result = new int[inArray.Length];
+    for (int i = 0; i < inArray.Length; i++)
+    {
+        result[i] = inArray[inArray.Length - 1 - i];
 
-}
-return result;
+    }
+    return result;
 }
